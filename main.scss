@@ -1,0 +1,160 @@
+@import './variables';
+@import './resets';
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Oswald&display=swap');
+
+.navbar {
+    background-color: $color1;
+    .navbar-brand {
+            font-family: $headers;
+        }
+                .nav-item {
+                    font-family: $regular-text;
+                    font-size: 20px;
+                }
+}
+
+.mainText {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #fbfbfb;
+    margin-left: -10px;
+    margin-right: -15px;
+    padding: 50px 40px 50px 40px;
+    text-align: left;
+}
+
+h1 {
+    font-family: $headers;
+}
+
+h2 {
+    font-family: $regular-text;
+}
+
+.mainList {
+    padding: 50px 40px 50px 40px;
+    background-color: $color2;
+    margin-left: -10px;
+    margin-right: -15px;
+    .list {
+    text-align: center;
+    padding-bottom: 25px;
+    }
+        .textCols {
+            padding-left: 140px;
+            font-family: $regular-text;
+            font-size: 20px;
+    
+            .textCols-item {
+                display: inline-block;
+                width: 30%;
+                vertical-align: top;
+            }
+        }
+}
+
+.cardCols-item {
+    display: inline-block;
+    padding: 30px 40px 50px 90px;
+    .card {
+            width: 18rem;
+            .card-body {
+                    text-align: center;
+                    .card-title {
+                            font-family: $regular-text;
+                            font-size: 22px;
+                        }
+                                                .card-text {
+                                                    font-family: $regular-text;
+                                                    font-size: 22px;
+                                                }
+                                                .btn {
+                                                    background-color: $color1;
+                                                }
+                }
+        }
+} 
+
+.carousel {
+    margin-left: -10px;
+    margin-right: -15px;
+}
+
+.Faq {
+    padding: 50px 40px 20px 40px;
+        .mainFaq {
+            text-align: center;
+            padding-bottom: 25px;
+        }
+                .accordion-button,
+                .accordion-body {
+                    font-family: $regular-text;
+                    background-color: $color2;
+                }
+        }
+
+.star-rating {
+    font-size: 0;
+    .star-rating__wrap {
+            display: inline-block;
+            font-size: 1rem;
+        }
+}
+
+.star-rating__wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.star-rating__ico {
+    float: right;
+    padding-left: 2px;
+    cursor: pointer;
+    color: #FFB300;
+}
+
+.star-rating__ico:last-child {
+    padding-left: 0;
+}
+
+.star-rating__input {
+    display: none;
+}
+
+.star-rating__ico:hover:before,
+.star-rating__ico:hover~.star-rating__ico:before,
+.star-rating__input:checked~.star-rating__ico:before {
+    content: "\f005";
+}
+
+.feedback {
+    padding: 50px 40px 40px 40px;
+    .mainFeedback {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+                .form-group {
+                    text-align: center;
+                    font-family: $regular-text;
+                    .rating {
+                            font-family: $regular-text;
+                            padding-bottom: 10px;
+                            font-size: 20px;
+                        }
+                }
+}
+
+footer {
+    background-color: $color1;
+    margin-left: -10px;
+    margin-right: -15px;
+    font-family: $regular-text;
+}
+
+
+
+
